@@ -18,4 +18,10 @@ pipeline {
             }
         }
     }
+      stage('myjob4') {
+            steps {
+                sh 'touch file6'
+            }
+        }
+    }
 }
