@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('myjob1') {
+            steps {
+                sh 'touch file2'
+            }
+        }
+        stage('myjob2') {
+            steps {
+                sh 'touch file3'
+            }
+        }
+        stage('myjob3') {
+            steps {
+                sh 'touch file5'
+            }
+        }
+    }
+}
