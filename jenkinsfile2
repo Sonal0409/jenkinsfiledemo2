@@ -17,7 +17,7 @@ pipeline {
                 sh 'touch file5'
             }
         }
-    }
+    
       stage('myjob4') {
             steps {
                 sh 'touch file6'
